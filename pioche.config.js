@@ -1,5 +1,5 @@
 
-export const configs = {
+export default {
     controllers: [],
     prehandlers: [],
     posthandlers: [],
