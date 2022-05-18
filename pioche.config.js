@@ -1,5 +1,5 @@
 
-export default {
+module.exports = {
     controllers: [],
     prehandlers: [],
     posthandlers: [],

@@ -1,4 +1,4 @@
-import { BaseMap, GetMap, DurableObjectController, OutboundResponse, Session, PutMap } from "pioche";
+import { BaseMap, GetMap, DurableObjectController, OutboundResponse, Session } from "pioche";
 
 @BaseMap("")
 export class HelloWorldController extends DurableObjectController {

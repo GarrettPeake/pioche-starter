@@ -1,5 +1,6 @@
 {
   "name": "pioche-starter",
+  "author": "Garrett Peake",
   "version": "1.0.0",
   "description": "Starter repository for pioche projects",
   "main": "src/entry.ts",
@@ -9,13 +10,12 @@
     "local": "wrangler dev --local",
     "deploy": "wrangler publish"
   },
-  "author": "Garrett Peake",
   "license": "MIT",
   "devDependencies": {
     "@cloudflare/workers-types": "^3.4.0",
     "wrangler": "^2.0.2"
   },
   "dependencies": {
-    "pioche": "^0.6.3"
+    "pioche": "^0.7.8"
   }
 }
