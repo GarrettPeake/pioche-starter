@@ -1,6 +1,4 @@
-
-module.exports = {
-    controllers: [],
+export default {
     prehandlers: [],
     posthandlers: [],
     kvBindings: [],

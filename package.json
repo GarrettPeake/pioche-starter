@@ -3,6 +3,7 @@
   "author": "Garrett Peake",
   "version": "1.0.0",
   "description": "Starter repository for pioche projects",
+  "type": "module",
   "main": "src/entry.ts",
   "scripts": {
     "build": "pioche build",

@@ -1,7 +1,7 @@
-import { BaseMap, GetMap, DurableObjectController, OutboundResponse, Session } from "pioche";
+import { BaseMap, GetMap, WorkerController, OutboundResponse, Session } from "pioche";
 
 @BaseMap("")
-export class HelloWorldController extends DurableObjectController {
+export class HelloWorldController extends WorkerController {
 
     @GetMap("")
     async helloWorld(session: Session, res: OutboundResponse){
