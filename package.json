@@ -7,9 +7,9 @@
   "main": "src/entry.ts",
   "scripts": {
     "build": "pioche build",
-    "remote": "wrangler dev --local",
-    "local": "wrangler dev --local",
-    "deploy": "wrangler publish"
+    "dev": "pioche build && wrangler dev --local",
+    "serve": "pioche build && wrangler dev --local",
+    "deploy": "pioche build && wrangler publish"
   },
   "license": "MIT",
   "devDependencies": {
