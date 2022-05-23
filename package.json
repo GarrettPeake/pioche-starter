@@ -1,19 +1,18 @@
 {
   "name": "pioche-starter",
-  "author": "Garrett Peake",
   "version": "1.0.0",
-  "description": "Starter repository for pioche projects",
   "type": "module",
   "main": "src/entry.ts",
   "scripts": {
-    "build": "pioche build",
-    "dev": "pioche build && wrangler dev --local",
-    "serve": "pioche build && wrangler dev --local",
-    "deploy": "pioche build && wrangler publish"
+    "build": "pioche-scripts build",
+    "dev": "pioche-scripts build && wrangler dev --local",
+    "serve": "pioche-scripts build && wrangler dev --local",
+    "deploy": "pioche-scripts build && wrangler publish"
   },
   "license": "MIT",
   "devDependencies": {
     "@cloudflare/workers-types": "^3.4.0",
+    "pioche-scripts": "^0.1.0",
     "wrangler": "^2.0.2"
   },
   "dependencies": {
