@@ -7,6 +7,6 @@ export default {
     extControllers: [], // Controllers in ../src will be discovered automatically
     prehandlers: [],
     posthandlers: [],
-    kvBindings: {},
+    kv_namespaces: {},
 }
  
